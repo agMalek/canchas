@@ -1,0 +1,17 @@
+.logoRedSocial{
+    width: 60px;
+    height: 60px;
+    margin: auto 0;
+}
+
+.contenedorRedes{
+    max-width: 100vw;
+    padding: 0 30px;
+    height: 90px;
+    background-color: #ccc;
+}
+
+.textoRedes{
+    margin: auto;
+    font-size: 20px;
+}

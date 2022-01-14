@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+import {HashRouter as Router, Routes, Route } from 'react-router-dom'
+
 import './App.css';
+import CanchasProvider from './app/appContext';
+import Footer from './components/Footer/Footer';
+import Navbar from './components/Navbar/Navbar';
+import Deporte from './pages/Deporte';
+import Home from './pages/Home/Home';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <CanchasProvider>
+      <Router>
+        <Navbar/>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/:dep" element={<Deporte/>}/>
+          {/* <Route path="/:deporte" element={<Tenis/>}/>
+          <Route path="/:deporte" element={<Voley/>}/> */}
+
+        </Routes>
+      </Router>
+      <Footer/>
+    </CanchasProvider>
   );
 }
 
