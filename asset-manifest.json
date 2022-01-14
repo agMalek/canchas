@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/canchas/static/css/main.6a833d3c.css",
+    "main.js": "/canchas/static/js/main.4580bb8b.js",
+    "static/js/787.7c84c24e.chunk.js": "/canchas/static/js/787.7c84c24e.chunk.js",
+    "static/media/instagram.png": "/canchas/static/media/instagram.0963b7a591227164566c.png",
+    "static/media/youtube.jpg": "/canchas/static/media/youtube.84f80edc76e5854f19ee.jpg",
+    "index.html": "/canchas/index.html",
+    "main.6a833d3c.css.map": "/canchas/static/css/main.6a833d3c.css.map",
+    "main.4580bb8b.js.map": "/canchas/static/js/main.4580bb8b.js.map",
+    "787.7c84c24e.chunk.js.map": "/canchas/static/js/787.7c84c24e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a833d3c.css",
+    "static/js/main.4580bb8b.js"
+  ]
+}
