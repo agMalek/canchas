@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react/cjs/react.development';
+import { useEffect, useState } from 'react';
 import Alert from '@mui/material/Alert';
 import './ReservaCancha.css'
 

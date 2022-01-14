@@ -1,6 +1,5 @@
-import { useContext, useEffect } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { useState } from 'react/cjs/react.development';
 import { Context } from '../../app/appContext';
 import ReservaCancha from '../../components/ReservaCancha/ReservaCancha';
 import './Deporte.css'
